@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Roboto&family=Splash&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', Roboto, Arial, 'Times New Roman', Times, serif, Pokemon Hollow, Pokemon Solid;
+
+}
+
+html{
+    background-image: url("..//images/back-pokes.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+body{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: sticky;
+    top: 1rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    width: 100%;
+    height: 90px;
+       
+}
+main{
+    
+    margin-top: 2%;
+    padding: 1rem;
+
+}
+
+h1{
+    letter-spacing: .5rem;
+    font-size: 4.5rem;
+    font-style: italic;
+    color: yellow;
+        
+}
+
+header h1 {
+    background-color: rgba(255, 255, 255);
+    backdrop-filter: blur(50%);
+    width: 100%;
+   
+}
+
+
+
+.pokener {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+
+    max-width: 1200px;
+}
+
+.pokemon {
+    background-color: #eee;
+    border-radius: 1rem;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, .5);
+    margin: 2rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    margin-top: 4rem;
+    max-width: 90%;
+    
+}
+
+.pokemon .info {
+    margin-top: 4rem;
+}
+
+.pokemon .number {
+    margin: 3rem 0 1.5rem;
+    letter-spacing: .5rem;
+
+}
